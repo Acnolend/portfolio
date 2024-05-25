@@ -1,0 +1,52 @@
+.projects {
+  margin-top: 40px;
+}
+
+.project {
+  background-color: rgba(0, 0, 0, .5);
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.project-name {
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project-content {
+  display: flex;
+  align-items: center;
+}
+
+.project-image {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.project-details {
+  margin-left: 20px;
+}
+
+.project-description {
+  color: white;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+.project-link:hover {
+  transform:scale(1.20);
+  transition: 0.5s;
+}
