@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "image": "assets/projects-images/hairsalonwebsite.png",
+      "name": "HairSalonWebSite",
+      "description": {
+        "en": "This project is based on a hair salon website where you can book appointments, register, see the different cuts that the hair salon offers, reviews, among other functions",
+        "es": "Este proyecto se basa en un sitio web de salón de belleza donde puedes reservar citas, registrarte, ver los diferentes cortes que ofrece el salón de belleza, opiniones, entre otras funciones"
+      },
+      "link": "https://github.com/Acnolend/HairSalonWebSite"
+    },
+    {
+      "image": "assets/projects-images/eco-exchange.png",
+      "name": "Eco-Exchange",
+      "description": {
+        "en": "Project similar to wallapop or milanuncios but its main characteristic is the rental of products instead of purchasing them.",
+        "es": "Proyecto similar a wallapop o milanuncios pero su característica principal es el alquiler de productos en lugar de comprarlos."
+      },
+      "link": "https://github.com/OmarLopezGuillen/eco-exchange"
+    }
+  ]
+}
