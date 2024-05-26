@@ -1,3 +1,13 @@
 {
-  "welcomeMessage": "¡Bienvenido a mi Portfolio!"
+  "welcomeMessage": "¡Bienvenido a mi Portfolio!",
+  "switchlanguage": {
+    "es": "Español",
+    "en": "Ingles"
+  },
+  "introduction": "Soy Antonio, estudiante de Ingeniería Informática apasionado por el desarrollo web y la ciberseguridad. Aunque sin experiencia profesional como desarrollador, he adquirido habilidades sólidas en tecnologías como Angular y Firebase durante mis estudios. Convencido de mi capacidad para contribuir significativamente, estoy emocionado por aplicar mis conocimientos en un entorno profesional y crecer junto a un equipo apasionado.",
+  "curriculum": "Curriculum",
+  "myprojects": "Mis Proyectos",
+  "viewprojects": "Ver Proyecto",
+  "allrightsreserved": "© 2024 Antonio Sanchez Ramirez. Todos los derechos reservados"
 }
+
