@@ -1,7 +1,7 @@
 <header class="header">
-  <p class="header--p">¡Bienvenido a mi Portfolio!</p>
+  <p class="header--p">{{ messages?.welcomeMessage }}</p>
   <select #lenguages class="selectlenguage" (change)="changeLanguage(lenguages.value)">
-    <option value="en">English</option>
-    <option value="es">Spanish</option>
+    <option value="en">{{ messages?.switchlanguage.en }}</option>
+    <option value="es">{{ messages?.switchlanguage.es }}</option>
   </select>
 </header>

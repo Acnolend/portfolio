@@ -3,18 +3,18 @@
 
   <div class="container_perfil">
     <img ngSrc="assets/perfil.png" alt="foto del perfil" height="859" width="824" class="perfil">
-    <p class="perfil_text">Buenas, mi nombre es Antonio, me encuentro actualmente finalizando mis estudios el cual es la carrera de Ingeniera Informatica</p>
+    <p class="perfil_text">{{ messages?.introduction }}</p>
 
     <div class="container_links">
-      <a href="#" class="a_link"><img ngSrc="assets/linkedin.svg" alt="enlace linkedin" height="32" width="32" class="perfil_link"></a>
-      <a href="#" class="a_link"><img ngSrc="assets/github.svg" alt="enlace github" height="32" width="32" class="perfil_link"></a>
+      <a href="https://www.linkedin.com/in/antonio-s%C3%A1nchez-ram%C3%ADrez-2b46832ab/" class="a_link" target="_blank"><img ngSrc="assets/linkedin.svg" alt="enlace linkedin" height="32" width="32" class="perfil_link"></a>
+      <a href="https://github.com/Acnolend" class="a_link" target="_blank"><img ngSrc="assets/github.svg" alt="enlace github" height="32" width="32" class="perfil_link"></a>
     </div>
 
-    <a href="assets/CurriculumActual.pdf" download="CurriculumActual.pdf" class="a_curriculum">Curriculum</a>
+    <a href="assets/CurriculumActual.pdf" download="CurriculumActual.pdf" class="a_curriculum">{{ messages?.curriculum }}</a>
 
   </div>
 
-  <p class="introduction_projects">My Projects</p>
+  <p class="introduction_projects">{{ messages?.myprojects }}</p>
 
   <app-projects></app-projects>
 

@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {NgForOf, NgOptimizedImage} from "@angular/common";
 import {LanguageService} from "../language.service";
+import {Subscription} from "rxjs";
 
 @Component({
   selector: 'app-projects',
@@ -16,14 +17,16 @@ export class ProjectsComponent implements OnInit {
 
   projects: any[''];
   currentLanguage: string = 'en';
+  private languageSubscription: Subscription = new Subscription;
 
   constructor(private languageService: LanguageService) {}
 
   ngOnInit(): void {
-    this.currentLanguage = this.languageService.getLanguage();
-    this.languageService.getProjects().subscribe(projects => {
-      this.projects = projects['projects'];
-      console.log(this.projects);
+    this.languageSubscription = this.languageService.currentLanguage.subscribe(language => {
+      this.currentLanguage = language;
+      this.languageService.getProjects().subscribe( projects => {
+        this.projects = projects['projects'];
+      })
     })
   }
 }

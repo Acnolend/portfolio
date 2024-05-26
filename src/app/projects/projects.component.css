@@ -7,6 +7,7 @@
   padding: 10px;
   margin: 10px;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .project-name {
@@ -37,9 +38,15 @@
   margin: 0 0 10px 0;
 }
 
+.technology-icon {
+  margin-top: 20px;
+  width: 7%;
+  height: auto;
+}
+
 .project-link {
-  display: inline-block;
-  margin-top: 10px;
+  display: table;
+  margin-top: 20px;
   color: white;
   text-decoration: none;
   font-size: 25px;
@@ -47,6 +54,8 @@
 }
 
 .project-link:hover {
-  transform:scale(1.20);
+  transform:scale(1.10);
   transition: 0.5s;
 }
+
+

@@ -30,6 +30,8 @@
   color: white;
   font-size: 20px;
   text-align: center;
+  padding-right: 28%;
+  padding-left: 28%;
 }
 
 .container_links {
@@ -55,7 +57,7 @@
   color: white;
   text-decoration: none;
   font-size: 25px;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 20px;
   transition: 0.5s;
 }
@@ -69,6 +71,7 @@
   margin-top: 2%;
   text-align: center;
   color: white;
-  font-size: 80px;
+  font-size: 65px;
+  text-shadow: 10px 10px 36px rgba(0, 0, 0, 1);
 }
 

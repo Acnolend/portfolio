@@ -1,3 +1,12 @@
 {
-  "welcomeMessage": "Welcome to my Portfolio!"
+  "welcomeMessage": "Welcome to my Portfolio!",
+  "switchlanguage": {
+    "es": "Spanish",
+    "en": "English"
+  },
+  "introduction": "I'm Antonio, a Computer Engineering student passionate about web development and cybersecurity. Although lacking professional experience as a developer, I've gained solid skills in technologies like Angular and Firebase during my studies. Confident in my ability to make a significant contribution, I'm excited to apply my knowledge in a professional setting and grow alongside a passionate team.",
+  "curriculum": "CV",
+  "myprojects": "My Projects",
+  "viewprojects": "View Projects",
+  "allrightsreserved": "© 2024 Antonio Sanchez Ramirez. All rights reserved"
 }

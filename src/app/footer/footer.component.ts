@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Subscription} from "rxjs";
+import {LanguageService} from "../language.service";
 
 @Component({
   selector: 'app-footer',
@@ -7,6 +9,21 @@ import { Component } from '@angular/core';
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css'
 })
-export class FooterComponent {
+export class FooterComponent implements OnInit {
+
+  languageSubscription: Subscription = new Subscription();
+  messages: any = {};
+
+
+  constructor(private languageService: LanguageService) {
+  }
+
+  ngOnInit(): void {
+    this.languageSubscription = this.languageService.currentLanguage.subscribe( language => {
+      this.languageService.loadMessages(language).subscribe(data => {
+        this.messages = data;
+      })
+    })
+  }
 
 }
